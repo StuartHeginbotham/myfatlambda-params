@@ -5,4 +5,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY src/ .
 
-CMD ["python", "demo.py"]
+ENTRYPOINT ["python", "demo.py"]
